@@ -1,0 +1,104 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <title>أستمارة التسجيل</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="zq.css">
+ </head>
+ <body>
+    <header>
+        <h1>نمـــــوذج تسجيــــــــل البيانات الشخصـــــية</h1>
+    </header>
+    <section>
+        <form action="" method="POST">
+
+            <div>
+                <img src="btaiq.png" alt="هوية"> <!-- تأكد من تغيير مصدر الصورة هنا -->
+    
+            </div>
+
+            <div>
+                <label for="fullname">الاسم الكامل :</label><br>
+                <input type="text" name="ful" id="fullname" placeholder="Username" maxlength="18" required>
+            </div>
+
+            <div>
+                <label for="email">البريد الالكتروني :</label><br>
+                <input type="email" name="em" id="email" placeholder="Email" required>
+            </div>
+
+            <div>
+                <label for="status">الحالة :</label>
+                <select name="st" id="status" required>
+                    <option value="single">أعزب</option>
+                    <option value="married">متزوج</option>
+                    <option value="divorced">مطلق</option>
+                    <option value="other">أخرى</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="phone">رقم الهاتف :</label>
+                <input type="tel" name="ph" id="phone" placeholder="+964" required>
+            </div>
+
+            <div>
+                <label for="dob">تاريخ الميلاد :</label>
+                <input type="date" name="do" id="dob" required>
+            </div>
+
+          
+           <div class="good">
+            <img src="basmi.png" alt="بصمة">
+           </div>
+
+            <div>
+                <label for="imag">الصورة :</label>
+                <input type="file" name="img" id="imag" required>
+            </div>
+
+           
+
+            <h2 style="text-align: center;" >cv</h2>
+
+            <div>
+                <label for="bio">النبذة :</label>
+                <textarea name="bio" id="bio" rows="4" required></textarea>
+            </div>
+
+            <div>
+                <label for="education">التعليم :</label>
+                <textarea name="edu" id="education" rows="3" required></textarea>
+            </div>
+
+            <div>
+                <label for="certifications">الشهادات :</label>
+                <textarea name="cer" id="certifications" rows="3" required></textarea>
+            </div>
+
+            <div>
+                <label for="skills">المهارات الفنية :</label>
+                <textarea name="ski" id="skills" rows="3" required></textarea>
+            </div>
+
+            <div>
+                <label for="hobbies">الهويات :</label>
+                <textarea name="hob" id="hobbies" rows="3" required></textarea>
+            </div>
+
+            <div>
+                <input type="reset" value="إعادة تعيين">
+                <input type="submit" value="إرسال">
+            </div>
+
+            <div>
+                <img src="thrroof.png" alt="ظرف تحقق">
+            </div>
+
+             <h5>Hussein saleem : أعداد</h5>
+        </form>
+    </section>
+ </body>
+ </html>

@@ -1,0 +1,114 @@
+         /* إعدادات عامة */
+         body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1e90ff, #87cefa);
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        /* تنسيق الهيدر */
+        header {
+            background-color: #4682b4;
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem; /* زيادة المسافة حول العنوان */
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 1.75rem; /* زيادة حجم العنوان */
+        }
+
+        /* تنسيق القسم */
+        section {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1.5rem;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* تنسيق الفورم */
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        div {
+            margin-bottom: 1rem;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="date"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        input[type="file"] {
+            border: none;
+            padding: 0;
+        }
+
+        /* تنسيق الصورة */
+        img {
+            display: block;
+            margin: 0 auto 1.5rem; /* زيادة المسافة أسفل الصورة */
+            max-width: 80%; /* تحديد أقصى عرض للصورة ليكون 80% من عرض الحاوية */
+            height: auto; /* الحفاظ على نسبة العرض إلى الارتفاع */
+            max-height: 300px; /* تعيين أقصى ارتفاع للصورة */
+            object-fit: cover; /* ملء الصورة بشكل مناسب ضمن الحاوية */
+        }
+
+        /* تنسيق الأزرار */
+        input[type="reset"],
+        input[type="submit"] {
+            background-color: #1e90ff;
+            color: #fff;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+            margin-right: 0.5rem;
+        }
+
+        input[type="reset"]:hover,
+        input[type="submit"]:hover {
+            background-color: #4682b4;
+        }
+
+        hr {
+            margin: 2rem 0;
+        }
+
+        h2 {
+            margin: 1rem 0;
+            font-size: 1.25rem;
+        }
+
+        /* تنسيق التوافق مع جميع الأجهزة */
+        @media (max-width: 600px) {
+            section {
+                padding: 1rem;
+                margin: 1rem;
+            }
+        }
